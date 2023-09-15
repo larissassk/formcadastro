@@ -1,10 +1,5 @@
 /*Folha de estilo do formulário*/
-form{
-    text-align: center; 
-}
-input{
-    text-align: center;
-}
+
 button{
     background-color: rgb(189, 189, 245);
     width: 200px;
