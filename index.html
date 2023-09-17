@@ -12,7 +12,6 @@
 
 <body>
     <h1 id="título">Criar cadastro</h1>
-    <p>ola</p>
     <form class="form-control"> 
         <label for="nome">Nome:</label>
         <br>
@@ -22,9 +21,9 @@
         <br>
         <input type="tel" id="telefone" placeholder="ex: (22)5555-5555" />
         <br>
-        <label for="nascimento">Data de nascimento:</label>
+        <label for="datanascimento" class="form_label">Data de Nascimento</label>
         <br>
-        <input type="date" id="nascimento" placeholder="00/00/0000"/>
+        <input type="date" name="datanascimento" class="form_input" id="datanascimento" placeholder="Data de Nascimento" required>
         <br>
         <label for="cpf">CPF:</label>
         <br>
@@ -58,9 +57,9 @@
         <br>
         <input type="text" id="estado" placeholder="ex: Seu estado" >
         <br>
-        <label for="email">Email:</label>
+       <label for="e-mail" class="form_label">Email</label>
         <br>
-        <input type="email" id="email" placeholder="ex: email@email.com"  />
+       <input type="email" name="email" class="form_input" id="email" placeholder="seuemail@email.com" required>
         <br>
         <label for="senha">Senha:</label>
         <br>
@@ -70,7 +69,7 @@
         <br>
         <input type="password" id="csenha" placeholder="ex: senha 321"  />
         <br>
-
+        <br>
         <button onclick="Verificar()" class="btn btn-warning">ACESSAR</button>
     </form>
     </div>
