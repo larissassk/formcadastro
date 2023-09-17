@@ -1,12 +1,7 @@
 /*Folha de estilo do formulário*/
-form{
-    text-align: center; 
-}
-input{
-    text-align: center;
-}
+
 button{
-    background-color: rgb(189, 189, 245);
+    background-color: rgb(73, 73, 240);
     width: 200px;
 }
 h1{
@@ -18,5 +13,5 @@ h1{
 label{
     position: relative;
   }
-
+ 
 
